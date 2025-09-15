@@ -73,7 +73,7 @@ const NavBar = () => {
             </DialogContent>
           </Dialog>
         </div>
-        <div className='lg:-ml-28 flex items-center gap-4'>
+        <div className='lg:ml-[-3rem] flex items-center gap-4'>
           <span>
             <img
               className='w-12 block md:hidden'
