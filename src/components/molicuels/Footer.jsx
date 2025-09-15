@@ -96,6 +96,11 @@ const Footer = () => {
                 Groovy Multi Services Pvt. Ltd.
               </p>
             </div>
+            <div className='flex flex-col md:flex-row gap-2 md:gap-0'>
+              <p className='px-8 hover:text-main text-white text-center font-montserrat'>
+                For Franchise Inquiry Call: <a href='tel:7698188888'>7698188888</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>
