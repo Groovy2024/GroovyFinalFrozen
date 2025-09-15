@@ -81,6 +81,16 @@ const NavBar = () => {
               alt='logo'
             />
           </span>
+        <div className="hidden md:flex flex-col text-sm lg:text-base text-gray-700 font-medium leading-tight">
+  <span className="whitespace-nowrap">For franchise inquiry</span>
+  <a
+    href="tel:7698188888"
+    className="text-main font-bold hover:underline"
+  >
+    Call 7698188888
+  </a>
+</div>
+
           <Logo />
         </div>
 
