@@ -82,8 +82,8 @@ const NavBar = () => {
             />
           </span>
           <Logo />
-                  <div className="hidden md:flex text-sm lg:text-base text-gray-700 font-medium leading-tight gap-4 ml-6">
-  <span className="whitespace-nowrap">For Inquiry</span>
+                  <div className="hidden md:flex-col text-sm lg:text-base text-gray-700 font-medium leading-tight gap-4 ml-6">
+  <span className="whitespace-nowrap">For Frenchise Inquiry</span>
   <a
     href="tel:7698188888"
     className="font-bold hover:underline "
