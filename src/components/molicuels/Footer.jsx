@@ -19,14 +19,14 @@ const Footer = () => {
     <div>
       <div className='relative mt-20'>
         <img
-          className='max-h-80 w-screen object-cover'
+          className=' w-screen object-cover'
           src={assets.footer}
           alt='Footer background'
         />
-        <div className='absolute bottom-0 h-[18rem] lg:h-80 z-10 w-full bg-[#000000b6] p-6'>
-          <div className='flex items-center flex-col justify-center lg:gap-6 gap-5'>
+        <div className='absolute bottom-0 h-[18rem] lg:h-80 z-10 w-full bg-[#000000b6] p-4 sm:p-6'>
+          <div className='flex flex-col items-center justify-center lg:gap-6 gap-1'>
             <Logo />
-            <div className='flex gap-6'>
+            <div className='flex gap-3'>
               <a
                 href='https://www.instagram.com/groovyfoodsindia?igsh=MWczamdrMXc0bWkyMg=='
                 target='_blank'
@@ -62,7 +62,7 @@ const Footer = () => {
                 className='hover:text-main text-white cursor-pointer'
               />
             </div>
-            <div className='flex flex-col md:flex-row gap-2 md:gap-0'>
+            <div className='flex flex-col md:flex-row gap-1 md:gap-0 w-full justify-center'>
               <Link
                 to='/'
                 className='border-r border-white lg:px-8 px-2 hover:text-main text-white text-center font-montserrat'
@@ -88,16 +88,16 @@ const Footer = () => {
                 Contact us
               </Link>
             </div>
-            <div className='flex flex-col md:flex-row gap-2 md:gap-0'>
-              <p className='px-8 border-r border-white md:border-r md:border-white hover:text-main text-white text-center font-montserrat'>
+            <div className='flex flex-col md:flex-row gap-1 md:gap-0 w-full justify-center'>
+              <p className='px-2 lg:px-8 border-r border-white md:border-r md:border-white hover:text-main text-white text-center font-montserrat'>
                 Monday-Sunday: 10:00 AM to 08:00 PM
               </p>
-              <p className='px-8 hover:text-main text-white text-center font-montserrat'>
+              <p className='px-2 lg:px-8 hover:text-main text-white text-center font-montserrat'>
                 Groovy Multi Services Pvt. Ltd.
               </p>
             </div>
-            <div className='flex flex-col md:flex-row gap-2 md:gap-0'>
-              <p className='px-8 hover:text-main text-white text-center font-montserrat'>
+            <div className='flex flex-col md:my-6 w-full justify-center'>
+              <p className='px-2 lg:px-8 hover:text-main text-white text-center font-montserrat break-words'>
                 For Franchise Inquiry Call: <a href='tel:7698188888'>7698188888</a>
               </p>
             </div>
